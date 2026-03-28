@@ -46,12 +46,11 @@ ai-game-solver/
 │   └── play.py
 │
 ├── maze_solver/
-│   ├── maze.py
-│   ├── bfs.py
-│   ├── dfs.py
-│   └── astar.py
-│
-└── requirements.txt
+    ├── maze.py
+    ├── bfs.py
+    ├── dfs.py
+    └── astar.py
+
 ```
 
 ---
