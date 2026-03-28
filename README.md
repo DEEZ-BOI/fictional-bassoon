@@ -51,7 +51,7 @@ ai-game-solver/
 │   ├── dfs.py
 │   └── astar.py
 │
-└── report.pdf
+└── requirements.txt
 ```
 
 ---
