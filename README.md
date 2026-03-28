@@ -130,9 +130,12 @@ S . . #
 # # . #
 ```
 
-S = Start
-G = Goal
-. = Empty Path
+'S' = Start
+
+'G' = Goal
+
+'.' = Empty Path
+
 '#' = Obstacle
 
 ---
