@@ -4,7 +4,7 @@
 
 This project implements fundamental Artificial Intelligence search techniques through two problem domains:
 
-1. Tic-Tac-Toe using adversarial search (Minimax)
+1. Tic-Tac-Toe using adversarial search (minmax)
 2. Maze solving using uninformed and informed search algorithms (BFS, DFS, A*)
 
 The goal is to demonstrate how different AI algorithms approach decision-making and pathfinding problems.
@@ -16,7 +16,7 @@ The goal is to demonstrate how different AI algorithms approach decision-making 
 ### Tic-Tac-Toe
 
 * Human vs AI gameplay
-* AI uses Minimax algorithm
+* AI uses minmax algorithm
 * Always plays optimally
 
 ### Maze Solver
@@ -42,7 +42,7 @@ ai-game-solver/
 │
 ├── tic_tac_toe/
 │   ├── game.py
-│   ├── minimax.py
+│   ├── minmax.py
 │   └── play.py
 │
 ├── maze_solver/
@@ -115,7 +115,7 @@ Enter your choice to proceed.
 * Uses heuristic (Manhattan distance)
 * More efficient than BFS in many cases
 
-### Minimax Algorithm
+### minmax Algorithm
 
 * Used in adversarial games
 * Maximizes AI’s chances while minimizing opponent’s advantage
@@ -137,23 +137,5 @@ G = Goal
 . = Empty Path
 
 '#' = Obstacle
-
----
-
-## Learning Outcomes
-
-* Understanding of search algorithms
-* Difference between uninformed and informed search
-* Application of adversarial search in games
-* Modeling real-world problems using AI techniques
-
----
-
-## Future Improvements
-
-* Add Alpha-Beta pruning for optimization
-* Improve UI for Tic-Tac-Toe
-* Add graphical visualization
-* Support larger and dynamic mazes
 
 ---
