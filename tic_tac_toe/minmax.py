@@ -2,7 +2,7 @@ import math
 from tic_tac_toe.game import check_winner, is_full, EMPTY, HUMAN, AI
 
 
-def minimax(board, is_maximizing):
+def minmax(board, is_maximizing):
     winner = check_winner(board)
 
     if winner == AI:
@@ -18,7 +18,7 @@ def minimax(board, is_maximizing):
             for j in range(3):
                 if board[i][j] == EMPTY:
                     board[i][j] = AI
-                    score = minimax(board, False)
+                    score = minmax(board, False)
                     board[i][j] = EMPTY
                     best = max(best, score)
         return best
@@ -28,7 +28,7 @@ def minimax(board, is_maximizing):
             for j in range(3):
                 if board[i][j] == EMPTY:
                     board[i][j] = HUMAN
-                    score = minimax(board, True)
+                    score = minmax(board, True)
                     board[i][j] = EMPTY
                     best = min(best, score)
         return best
@@ -42,7 +42,7 @@ def best_move(board):
         for j in range(3):
             if board[i][j] == EMPTY:
                 board[i][j] = AI
-                score = minimax(board, False)
+                score = minmax(board, False)
                 board[i][j] = EMPTY
                 if score > best_score:
                     best_score = score
