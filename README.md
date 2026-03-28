@@ -61,7 +61,7 @@ ai-game-solver/
 1. Clone the repository:
 
 ```
-git clone <your-repo-link>
+git clone https://github.com/DEEZ-BOI/fictional-bassoon
 cd fictional-bassoon
 ```
 
@@ -132,8 +132,8 @@ S . . #
 
 S = Start
 G = Goal
-
-# = Obstacle
+. = Empty Path
+'#' = Obstacle
 
 ---
 
