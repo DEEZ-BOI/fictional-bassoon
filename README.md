@@ -130,11 +130,11 @@ S . . #
 # # . #
 ```
 
-'S' = Start
+S = Start
 
-'G' = Goal
+G = Goal
 
-'.' = Empty Path
+. = Empty Path
 
 '#' = Obstacle
 
